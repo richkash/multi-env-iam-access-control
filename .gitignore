@@ -1,0 +1,38 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform plan files
+*.tfplan
+
+# Variable overrides (local only, not in Git)
+terraform.tfvars
+*.auto.tfvars
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.crt
+*.csr
+
+# Local settings
+.terraformrc
+terraform.rc
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
